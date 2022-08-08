@@ -1,0 +1,327 @@
+@font-face {
+    font-family: 'proto';
+    src: url('../font/proto.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.nvtxt{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: 300ms;
+    font-weight: 600;
+    display: block;
+}
+
+.nvtxt:hover{
+    color: blueviolet;
+    user-select: none;
+}
+
+.nvback{
+    background-color: white;
+    min-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px  rgb(121, 121, 121);
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(236, 236, 236);
+}
+
+h2{
+    color: black;
+}
+
+.logo{
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    display: block;
+}
+
+
+
+.background{
+    background-image: url(/img/welcome/background_1.png);
+    background-size: cover;
+    height: 450px;
+    background-position: center;
+}
+
+.welcome:hover{
+    color: black;
+}
+
+.welcometo{
+    font-size: 50px;
+}
+
+.pack{
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.packs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 60px;
+}
+
+.pack1{
+    border-radius: 60px;
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    transition: 300ms;
+}
+
+.pack1ele{
+    display: block;
+}
+
+.pack2{
+    border-radius: 60px;
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    transition: 300ms;
+}
+
+.pack2ele{
+    display: block;
+}
+
+.pack3{
+    border-radius: 60px;
+    background-color: white;
+    background-size: cover;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    display: block;
+    transition: 300ms;
+}
+
+.pack3ele{
+    display: block;
+}
+
+.text{
+    text-align: left;
+    padding: 25px;
+    display: block;
+}
+
+.textele{
+    background-image: url(/img/description/img1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 30px;
+    background-attachment: fixed;
+    opacity: 80%;
+}
+
+.textmargin{
+    font-style:initial;
+    color: rgb(24, 24, 24);
+    box-shadow: 0px 0px 22px 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.img{
+    text-align: left;
+    padding: 20px;
+    display: block;
+}
+
+.imgele{
+    display: block;
+}
+
+
+.works{
+    z-index: 100;
+    background-color: rgb(212, 255, 219);
+    padding: 30px;
+}
+
+.finish{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.finish1{
+    padding: 25px;
+    display: block;
+}
+
+.finish1ele{
+    display: block;
+}
+
+.finish2{
+    padding: 25px;
+    display: block;
+}
+
+.finish2ele{
+    display: block;
+}
+.finish3{
+    padding: 25px;
+    display: block;
+}
+
+.finish3ele{
+    display: block;
+}
+.finish4{
+    padding: 25px;
+    display: block;
+}
+
+.finish4ele{
+    display: block;
+}
+
+.footer{
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socialbase{
+    z-index:900;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.facebook{
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 18px;
+    display: block;
+}
+
+.instagram{
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-right: 14px;
+    display: block;
+}
+
+.twitter{
+    padding-top: 17px;
+    padding-left: 10px;
+    display: block;
+}
+
+.h4{
+    padding-left: 10px;
+}
+
+.aboutus{
+    justify-content: center;
+    display: grid;
+}
+
+.logoabout{
+    margin-right: 100px;
+    padding-bottom: 45px;
+}
+
+.socialmedia{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textabout{
+    justify-content: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.contacttext{
+    text-align: center;
+}
+
+.img1{
+    padding: 2px;
+    width: 100px;
+}
+
+.img2{
+    padding: 2px;
+    width: 100px;
+}
+
+.img3{
+    padding: 2px;
+    width: 100px;
+}
+
+.socialmedia{
+    z-index: 100;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.whatstext{     
+    text-align: center;
+}
+
+.pack1:hover {
+    box-shadow: 0px 0px 16px 0px  rgb(181, 181, 181);
+}
+
+.pack2:hover {
+    box-shadow: 0px 0px 16px 0px  rgb(181, 181, 181);
+}
+
+.pack3:hover {
+    box-shadow: 0px 0px 16px 0px  rgb(181, 181, 181);
+}
+.contacts{
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
